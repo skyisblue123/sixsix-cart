@@ -18,3 +18,14 @@ $(window).scroll(function () {
     $(".top").fadeOut();
   }
 });
+
+/*錨點*/
+$(function () {
+  $(‘a[href*=#]:not([href=#])’).click(function() {
+      var target = $(this.hash);
+      $(‘html,body’).animate({
+          scrollTop: target.offset().top
+      }, 1000);
+      return false;
+  });
+});
