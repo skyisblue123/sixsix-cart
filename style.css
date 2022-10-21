@@ -107,6 +107,14 @@
   text-align: center;
   margin-bottom: 5px;
 }
+@media(max-width: 375px){
+  .banner {
+    background-image: url(https://i.postimg.cc/nh8rYcWR/1.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: 350px;
+  }
+}
 
 /*cart menu*/
 .cart {
